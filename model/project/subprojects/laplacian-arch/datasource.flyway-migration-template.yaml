@@ -1,0 +1,16 @@
+project:
+  subprojects:
+  - group: laplacian-arch
+    type: template
+    name: dataset.flyway-migration-template
+    namespace: laplacian.arch
+    description:
+      en: |
+        This template generates a database migration script with [flyway] (https:// flywaydb.org/) for the given dataset model.
+      ja: |
+        このテンプレートは、与えられたデータセットに対する[flyway](https://flywaydb.org/)を用いたデータベースマイグレーションスクリプトを生成します。
+      zh: |
+        该模板根据数据源模型用[flyway](https:// flywaydb.org/)生成数据库迁移脚本。
+    version: '1.0.0'
+    source_repository:
+      url: https://github.com/laplacian-arch/dataset.flyway-migration-template.git

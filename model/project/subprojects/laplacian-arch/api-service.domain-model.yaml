@@ -1,0 +1,23 @@
+project:
+  subprojects:
+  - group: laplacian-arch
+    type: domain-model
+    name: api-service.domain-model
+    namespace: laplacian.arch.api.service
+    description:
+      en: |
+        A domain model that represents the logical structure of API services.
+        This model is based on the REST resource model,
+        GraphQL interface definition model, and the data source access model.
+      ja: |
+        APIサービスの論理構造を表すドメインモデルです。
+        このモデルは、RESTリソース、GraphQLインタフェース定義モデルおよび、
+        データソースアクセスモデルによって構成されます。
+      zh: |
+        一种表示API服务逻辑结构的领域模型。
+        该模型基于REST资源模型、GraphQL接口定义模型和数据源访问模型。
+    version: '1.0.0'
+    source_repository:
+      url: https://github.com/laplacian-arch/api-service.domain-model.git
+    model_files:
+    - dest/model

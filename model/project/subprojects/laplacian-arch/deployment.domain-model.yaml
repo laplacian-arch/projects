@@ -1,0 +1,26 @@
+project:
+  subprojects:
+  - group: laplacian-arch
+    type: domain-model
+    name: deployment.domain-model
+    namespace: laplacian.arch.deployment
+    description:
+      en: |
+        This model represents the deployment configuration of a system.
+      ja: |
+        システムのデプロイメント構成を表すモデルです。
+      zh: |
+        该模型表示系统的部署配置。
+    version: '1.0.0'
+    source_repository:
+      url: https://github.com/laplacian-arch/deployment.domain-model.git
+    plugins:
+    - group: laplacian-arch
+      name: api-service.domain-model-plugin
+      version: '1.0.0'
+    models:
+    - group: laplacian-arch
+      name: api-service.domain-model
+      version: '1.0.0'
+    model_files:
+    - dest/model

@@ -1,0 +1,57 @@
+# General
+*.tmp
+*.log
+*.swp
+*.backup
+*.zip
+
+# General - Windows
+Thumbs.db
+*.lnk
+~$*
+
+
+# General - MacOS
+.DS_Store
+
+# VSCode
+/vscode/
+# /.vscode/
+*.code-workspace
+
+# Java development
+.metadata
+.project
+.classpath
+.settings/
+.gradle/
+.idea/
+bin/
+build/
+out/
+
+# Laplacian projects
+.NEXT/
+.PREV/
+dest/*
+# @+additional-entries@
+# @additional-entries@
+subprojects/mvn-repo/
+subprojects/mvn-repo
+subprojects/api-service-domain-model/
+subprojects/api-service-springboot2-template/
+subprojects/application-model-project-template/
+subprojects/dataset-flyway-migration-template/
+subprojects/deployment-domain-model/
+subprojects/frontend-ui-domain-model/
+subprojects/java-stack-service-project-template/
+subprojects/project-types/
+
+
+
+# GCP
+.gcloud/
+
+# Terraform
+.terraform/
+*.tfstate

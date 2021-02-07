@@ -1,0 +1,18 @@
+project:
+  subprojects:
+  - group: laplacian-arch
+    type: template
+    name: application-model.project-template
+    namespace: laplacian-arch
+    description:
+      en: |
+        A project template for application model development projects.
+      ja: |
+        このテンプレートはアプリケーションモデル開発プロジェクト用のテンプレートです。
+      zh: |
+        应用功能模型开发项目的项目模板。
+    version: '1.0.0'
+    source_repository:
+      url: https://github.com/laplacian-arch/application-model.project-template.git
+    template_files:
+      - 'dest/template'

@@ -1,0 +1,17 @@
+project:
+  group: laplacian-arch
+  name: projects
+  type: project-group
+  version: "1.0.0"
+  description:
+    en: |
+       projects.
+  module_repositories:
+    local:
+      ../mvn-repo
+    remote:
+    - https://github.com/nabla-squared/mvn-repo
+  models:
+  - name: project-types
+    group: laplacian-arch
+    version: '1.0.0'
